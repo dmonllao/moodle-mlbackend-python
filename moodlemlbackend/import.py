@@ -17,6 +17,7 @@ def import_classifier():
     binary_classifier.import_classifier(sys.argv[3])
 
     # An exception will be thrown before if it can be imported.
+    print('Ok')
     sys.exit(0)
 
 import_classifier()
